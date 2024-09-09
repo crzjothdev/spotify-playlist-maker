@@ -1,0 +1,5 @@
+# Install the latest version of the package
+requests
+
+# Install Python environment variables reader
+python-dotenv>=0.19.2
