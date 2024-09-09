@@ -1,13 +1,10 @@
 from base64 import b64encode
-import urllib.parse
 import requests
 import webbrowser
 
 # Spotify API
 class Spotify:
     uri = 'https://accounts.spotify.com/api/token'
-    client_id = 'e31e01950af748439305756aff97b5bb'
-    client_secret= '7ee6b94ab21a4cd3b580fd1469c7660e'
 
     def __init__(self, client_id, client_secret):
         self.client_id = client_id
